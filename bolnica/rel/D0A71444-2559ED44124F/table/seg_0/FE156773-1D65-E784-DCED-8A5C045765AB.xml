@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE156773-1D65-E784-DCED-8A5C045765AB" name="Medicinski_Tehnicar">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:06:08 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_zaposleni_id" id="A8BDD3A0-F0F5-9C39-CFAB-86BC243C9C4F">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:14 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5722B9D9-EE64-02B5-4C05-52B13AB4E0B9" referredColumn="593C76B5-B24B-1C2C-D028-573984F7E251"/>
+</associations>
+</Column>
+<Column name="tehnicar_id" id="B0A7C623-3BC7-7C21-8FDB-5741AA4E7E63">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53634E72-F0E2-FE8E-37D2-607EECA2C183" name="Medicinski_Tehnicar_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A7C623-3BC7-7C21-8FDB-5741AA4E7E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46A3BF77-E3AA-BA26-6F82-0CAA5C765C76" name="Medicinski_Tehnicar_Zaposleni_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:14 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8BDD3A0-F0F5-9C39-CFAB-86BC243C9C4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

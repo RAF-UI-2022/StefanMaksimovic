@@ -29,6 +29,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Zaposleni_zaposleni_id" id="8E606B30-C11A-5C67-4AF1-73AB6116BC71">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:01 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F42E21A8-E0DB-7CFF-E54A-3B26DD334ADF" referredColumn="593C76B5-B24B-1C2C-D028-573984F7E251"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="252A0667-B68C-1D8F-33F0-1649CBD0CE89" name="Doktor_PK">
@@ -40,6 +54,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A8A2598-82E0-A900-7A41-D7DF819C38A1" name="Doktor_Zaposleni_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:07:01 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

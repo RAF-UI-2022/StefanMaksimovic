@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE2E6F5B-5535-F148-0226-5CC1BCBFFB6D" name="Racun_Labaratorija">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:18:12 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Labaratorija_labaratorija_id" id="7C2E2429-F52D-1882-AE45-D1AAE65B82DB">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:18:34 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA35A08B-5DCB-5FC9-A426-1A34F4A2878B" referredColumn="178A04BA-8394-D591-F620-94B9BE7C1DE5"/>
+</associations>
+</Column>
+<Column name="racun_lab_id" id="F3129F15-3270-8BF2-992C-7DF20231F4C3">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:19:12 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_racun_id" id="5AF106BF-67C3-E8B5-8EA0-52B8DC946956">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:20:18 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="438503D3-8B7D-B154-5996-DE7509023CF7" referredColumn="DEE17FD6-2AF8-8A80-55C5-83A10E042D40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A6BE2FA-269C-F331-60AF-C6C8F8423460" name="Racun_Labaratorija_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:19:12 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3129F15-3270-8BF2-992C-7DF20231F4C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2AC1C17-71BE-9A06-4527-C6364DBA9137" name="Racun_Labaratorija_Labaratorija_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:18:34 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C2E2429-F52D-1882-AE45-D1AAE65B82DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7137309-35FA-BA37-F9D6-6FDF6B9A27E2" name="Racun_Labaratorija_Racun_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 13:20:18 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF106BF-67C3-E8B5-8EA0-52B8DC946956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
