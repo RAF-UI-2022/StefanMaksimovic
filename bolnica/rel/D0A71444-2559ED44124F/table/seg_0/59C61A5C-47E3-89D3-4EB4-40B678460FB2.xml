@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59C61A5C-47E3-89D3-4EB4-40B678460FB2" name="Dobavljac">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:04:36 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dobavljac_id" id="32FE672B-F5DB-BD50-5DAA-68C5645B4A3A">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:05:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_dobavljaca" id="A9AAD1E5-4BB7-9C0F-6AC2-AA1DAEB29B6C">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:05:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="A7549C3E-44A7-B29D-E515-67562CCED2DB">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:05:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5D4526A7-F9F9-AB60-92DC-3B9858A6E7D7">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:05:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6371B04D-DFA0-F3BB-DE3F-BAF891F5955E" name="Dobavljac_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:06:15 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32FE672B-F5DB-BD50-5DAA-68C5645B4A3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

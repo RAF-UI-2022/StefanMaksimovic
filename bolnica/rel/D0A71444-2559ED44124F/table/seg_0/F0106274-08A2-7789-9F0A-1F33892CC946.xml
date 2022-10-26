@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0106274-08A2-7789-9F0A-1F33892CC946" name="Racun">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:33:29 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="racun_id" id="DEE17FD6-2AF8-8A80-55C5-83A10E042D40">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:34:19 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_pacijenta" id="DBB43B9F-2473-6CEE-0277-F58D300B6C62">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:35:22 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="br_dana" id="D7FB9DF4-C1D2-46B8-9A19-945EB47CFCE2">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:35:22 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="br_osiguranja" id="27E18C4F-98BA-579A-C145-9D89725612DF">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:35:22 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacijent_pacijent_id" id="3D0905AB-706E-5A1F-76F5-65D2E117499C">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:35:29 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04E45CD8-1179-9335-5964-1178FAFDE425" referredColumn="DAD59B64-5A70-E42D-E2B1-1C11CFC92E21"/>
+</associations>
+</Column>
+<Column name="osiguranje_id" id="6D951ECF-B1F3-981B-A880-FBE5D13B4F53">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:42:10 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osiguranje_osiguranje_id" id="96586BCA-0624-6E6D-08ED-B4927D34AE1E">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:43:30 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="476891B0-12E4-E5F5-2D76-462EFEC5C83B" referredColumn="35581435-A5D4-62BB-2884-004E5ABE8E1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F660C23-D07B-341E-4458-E298D748B35A" name="Racun_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:34:19 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE17FD6-2AF8-8A80-55C5-83A10E042D40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A22CB91E-D4D5-7F46-D796-C36DB536C573" name="Racun_Pacijent_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:35:29 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0905AB-706E-5A1F-76F5-65D2E117499C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D724D3D2-B759-E33B-B26C-4C8658B59720" name="Racun_Osiguranje_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:43:30 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96586BCA-0624-6E6D-08ED-B4927D34AE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

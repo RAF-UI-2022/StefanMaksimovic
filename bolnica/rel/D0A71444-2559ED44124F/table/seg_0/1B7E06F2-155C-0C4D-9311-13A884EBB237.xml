@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B7E06F2-155C-0C4D-9311-13A884EBB237" name="Zaposleni">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:16:35 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zaposleni_id" id="593C76B5-B24B-1C2C-D028-573984F7E251">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:18:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="EE5DB95E-9137-4C2F-F91F-DB9CC9F80EC3">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:18:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="13F0AE1A-8B9F-461C-09FE-A78E70F11AEC">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:18:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radni_staz" id="50097250-E55E-C241-304C-348518251BD9">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:18:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bolnica_bolnica_id" id="A1CCDD3F-DD35-242D-A55E-2F0C0BF7F692">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:24:38 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="198A0BC8-7534-84F8-4DD3-6F6FD3EEF3D2" referredColumn="0ED8C227-15E0-079B-C880-9FA27A28C266"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7C4924E-29D1-5DAE-015F-8E89A6C1DE54" name="Zaposleni_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:18:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593C76B5-B24B-1C2C-D028-573984F7E251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73918B09-D935-8F2C-4372-078FA1EB14CF" name="Zaposleni_Bolnica_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:24:38 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1CCDD3F-DD35-242D-A55E-2F0C0BF7F692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

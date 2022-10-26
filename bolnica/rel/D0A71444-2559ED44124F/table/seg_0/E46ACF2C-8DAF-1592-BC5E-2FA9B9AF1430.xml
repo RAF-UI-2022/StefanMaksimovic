@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E46ACF2C-8DAF-1592-BC5E-2FA9B9AF1430" name="Lek_Izvjestaj">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:57:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="izvjestaj_id" id="7CD01C7B-4405-69F8-23BE-250AF22235A4">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:00 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_proizvodnje" id="F573F183-3CA4-A49D-0210-E5303C73F869">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:00 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isteka_roka" id="868E8583-8C9F-C55F-3B68-95B3CFB09916">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:00 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="5AA86C68-CD93-69C5-7ECD-02846C6A91EC">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:00 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lek_lek_id" id="4C138388-24F2-2D7E-676A-5317D7E60B56">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:11 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78DAF277-F341-263E-1BD0-4CA92F688F6D" referredColumn="8218583F-2FF5-209C-D435-7FFD24CEF24F"/>
+</associations>
+</Column>
+<Column name="Dobavljac_dobavljac_id" id="CDF339DB-730A-C972-4B1E-637C500F9DCB">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:06:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3028869E-4509-B865-CB67-00988FE8852A" referredColumn="32FE672B-F5DB-BD50-5DAA-68C5645B4A3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A51DF9B-2A88-F039-D8F2-E8DBAE4B5A48" name="Lek_Izvjestaj_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:00 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD01C7B-4405-69F8-23BE-250AF22235A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14F2F628-B5EE-F741-6BBE-A636FD8A96F6" name="Lek_Izvjestaj_Lek_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:00:11 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C138388-24F2-2D7E-676A-5317D7E60B56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDA6C9A2-6B94-FDC6-F13F-8A20BA1DC0CC" name="Lek_Izvjestaj_Dobavljac_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:06:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDF339DB-730A-C972-4B1E-637C500F9DCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

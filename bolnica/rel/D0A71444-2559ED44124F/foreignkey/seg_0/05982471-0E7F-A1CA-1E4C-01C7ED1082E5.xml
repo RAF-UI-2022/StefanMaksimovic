@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05982471-0E7F-A1CA-1E4C-01C7ED1082E5" containerWithKeyObject="39439628-C3DC-49EC-6006-99A112B36ABD" localFKIndex="30E48FEE-07E7-4914-72A7-9B17A5B7C3D1" name="Soba_Departman_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:32:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Departman</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8A64042-A4FB-126D-9E7F-CBDB28ABC011</referredTableID>
+<keyObject>45018ADB-A37A-1292-6D34-702F80E39845</keyObject>
+<referredKeyID>45018ADB-A37A-1292-6D34-702F80E39845</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>department_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

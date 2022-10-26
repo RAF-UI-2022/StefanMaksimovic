@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3028869E-4509-B865-CB67-00988FE8852A" containerWithKeyObject="E46ACF2C-8DAF-1592-BC5E-2FA9B9AF1430" localFKIndex="EDA6C9A2-6B94-FDC6-F13F-8A20BA1DC0CC" name="Lek_Izvjestaj_Dobavljac_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 08:06:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Dobavljac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59C61A5C-47E3-89D3-4EB4-40B678460FB2</referredTableID>
+<keyObject>6371B04D-DFA0-F3BB-DE3F-BAF891F5955E</keyObject>
+<referredKeyID>6371B04D-DFA0-F3BB-DE3F-BAF891F5955E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dobavljac_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F75D96F-3F37-58DD-B777-CF16773C7CB9" name="Osiguravajuce_Pokrice">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:43:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pokrice_id" id="482F9B55-F9BE-A732-39C4-F232F4F92275">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_osiguranja" id="CFD64978-2F5E-185B-2705-C35EDD69DE7E">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="troskovi" id="80F9D310-55E4-A22E-8A20-9CD236D0B19D">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osiguravajuce_drustvo" id="77973017-7A59-D31A-C355-176CFD42C7D3">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osiguranje_osiguranje_id" id="8136F9DC-658C-34F4-4418-CBCAE2A6DDD3">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="178201A4-EAD6-FFB7-39D9-39451AFF0D5E" referredColumn="35581435-A5D4-62BB-2884-004E5ABE8E1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B45A1B7-3CFC-7391-BC6C-CEACF77803A4" name="Osiguravajuce_Pokrice_Osiguranje_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-10-26 07:46:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8136F9DC-658C-34F4-4418-CBCAE2A6DDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
