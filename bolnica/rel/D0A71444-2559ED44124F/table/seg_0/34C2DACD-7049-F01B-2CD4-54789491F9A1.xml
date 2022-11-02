@@ -18,17 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="specijalizacija" id="B7CD07EA-577A-E991-E84C-55B133EDF903">
-<createdBy>X</createdBy>
-<createdTime>2022-10-26 07:24:13 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Zaposleni_zaposleni_id" id="8E606B30-C11A-5C67-4AF1-73AB6116BC71">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 13:07:01 UTC</createdTime>
@@ -43,6 +32,20 @@
 <colAssociation fkAssociation="F42E21A8-E0DB-7CFF-E54A-3B26DD334ADF" referredColumn="593C76B5-B24B-1C2C-D028-573984F7E251"/>
 </associations>
 </Column>
+<Column name="Specijalizacija_spec_if" id="A5EC94F0-C150-85CF-0F1F-65FF8BFD8ABE">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:25:14 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C05AAA19-96BD-73B0-6DB8-C3BBA76A3CD8" referredColumn="A413499F-1F7D-77EB-4A5A-A5C786B1082F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="252A0667-B68C-1D8F-33F0-1649CBD0CE89" name="Doktor_PK">
@@ -53,7 +56,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+<colUsage columnID="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3A8A2598-82E0-A900-7A41-D7DF819C38A1" name="Doktor_Zaposleni_FK">
@@ -64,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73D3A9A1-113F-A316-C87E-D37EEF6546CB" name="Doktor_Specijalizacija_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:25:14 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EC94F0-C150-85CF-0F1F-65FF8BFD8ABE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

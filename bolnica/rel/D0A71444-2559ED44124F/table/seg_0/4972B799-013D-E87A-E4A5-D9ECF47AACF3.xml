@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4972B799-013D-E87A-E4A5-D9ECF47AACF3" name="Zaposleni_Med_Objekat">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:32:32 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medicinski_Objekat_objekat_id" id="C2BDC491-0063-F4CC-8289-95C64C25A445">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:32:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44854BEF-49B1-7428-A868-EDAE3F5C7E0F" referredColumn="4C697D4B-6B51-89B1-EDAE-04EFF2B8FDFE"/>
+</associations>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="6BD09812-5883-22F0-EECC-5A8FBD59F8A8">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:33:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCEE2CE9-E946-398D-5F17-4ACF2AA0B7C4" referredColumn="593C76B5-B24B-1C2C-D028-573984F7E251"/>
+</associations>
+</Column>
+<Column name="od" id="02521036-8781-3556-884F-645C434BBEED">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:33:43 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="D4F075FB-0E3F-F27F-5359-6339660C4EEF">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:33:43 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid" id="4133046F-908C-F2E0-ECD0-4419088FFB0C">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:34:15 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FEBA88A-430E-FD87-4547-27F7A969EC8A" name="Zaposleni_Med_Objekat_Medicinski_Objekat_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:32:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BDC491-0063-F4CC-8289-95C64C25A445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA3458E-2462-8C03-D39E-85B5E73723AF" name="Zaposleni_Med_Objekat_Zaposleni_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:33:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD09812-5883-22F0-EECC-5A8FBD59F8A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

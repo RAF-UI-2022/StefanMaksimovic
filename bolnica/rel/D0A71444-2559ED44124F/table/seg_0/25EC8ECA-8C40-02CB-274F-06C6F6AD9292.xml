@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25EC8ECA-8C40-02CB-274F-06C6F6AD9292" name="Tip_Pregleda">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:34:42 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="A2A8AB75-6D5A-C36E-5CE9-155B58D81989">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:26 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_pregleda" id="CD0EF69D-F913-D92B-407E-D418059C65BE">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:26 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregled_pregled_id" id="7AC0384E-250B-7413-D52D-933CD44EB1A7">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:49 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="468DDC17-CAA6-4F69-02B0-763854EB18EA" referredColumn="D9BB555C-97C5-184C-550A-2B2F90B151BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F702B73-D983-5020-1D3C-A507DE81B089" name="Tip_Pregleda_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:26 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A8AB75-6D5A-C36E-5CE9-155B58D81989"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CCD1D0B-1660-5633-3E21-D1AC0EE7F899" name="Tip_Pregleda_Pregled_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:49 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AC0384E-250B-7413-D52D-933CD44EB1A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

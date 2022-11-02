@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="468DDC17-CAA6-4F69-02B0-763854EB18EA" containerWithKeyObject="25EC8ECA-8C40-02CB-274F-06C6F6AD9292" localFKIndex="5CCD1D0B-1660-5633-3E21-D1AC0EE7F899" name="Tip_Pregleda_Pregled_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:35:49 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Pregled</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB11DF21-85BA-12E4-F65B-3CF41AB583C5</referredTableID>
+<keyObject>562F0F42-59E1-B1E3-0C99-3B427FAB15F5</keyObject>
+<referredKeyID>562F0F42-59E1-B1E3-0C99-3B427FAB15F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pregled_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

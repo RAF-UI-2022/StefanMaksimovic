@@ -40,17 +40,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_pacijenta" id="22F0279A-B5C1-8FA2-A81F-3E10C4497D97">
-<createdBy>X</createdBy>
-<createdTime>2022-10-26 08:27:23 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Pacijent_pacijent_id" id="A91CA563-A032-F287-A616-656B600BB324">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 08:27:40 UTC</createdTime>
@@ -63,6 +52,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6814F67E-069B-CA31-5184-23128AC46C08" referredColumn="DAD59B64-5A70-E42D-E2B1-1C11CFC92E21"/>
+</associations>
+</Column>
+<Column name="Tip_Pacijenta_tip_id" id="30DDA7FD-F4E5-344F-53FA-BC415DA501DD">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:52:43 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73357B7B-6401-92D4-839A-FCF3B6960698" referredColumn="EAD1ABD3-6EBF-B191-9BD9-2E534405BEFE"/>
 </associations>
 </Column>
 </columns>
@@ -86,6 +89,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A91CA563-A032-F287-A616-656B600BB324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F37DC477-3157-E54A-B955-4F73757EA367" name="Labaratorija_Tip_Pacijenta_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:52:43 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30DDA7FD-F4E5-344F-53FA-BC415DA501DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

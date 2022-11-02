@@ -51,20 +51,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Doktor_doctor_id" id="A7BAE1D3-ED8E-525F-0324-EBA5F754CA07">
-<createdBy>X</createdBy>
-<createdTime>2022-10-26 07:53:44 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="15F3B33E-656C-FAAD-C07E-F4AD54B75AE3" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
-</associations>
-</Column>
 <Column name="Pacijent_pacijent_id" id="602B4B23-2C3F-E3CA-8D78-B22A863D4B39">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 07:53:50 UTC</createdTime>
@@ -77,6 +63,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6DBAD550-02C6-FA6B-A03E-A32DC1ADE303" referredColumn="DAD59B64-5A70-E42D-E2B1-1C11CFC92E21"/>
+</associations>
+</Column>
+<Column name="Doktor_Zaposleni_zaposleni_id" id="190EF06F-E027-29D4-50D9-44DE14AD9A4E">
+<createdBy>X</createdBy>
+<createdTime>2022-11-02 10:31:20 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15F3B33E-656C-FAAD-C07E-F4AD54B75AE3" referredColumn="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
 </associations>
 </Column>
 </columns>
@@ -99,7 +99,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A7BAE1D3-ED8E-525F-0324-EBA5F754CA07"/>
+<colUsage columnID="190EF06F-E027-29D4-50D9-44DE14AD9A4E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6D1724A2-764D-7A19-0C18-01A9FD69447A" name="Izvestaj_Pacijenta_Pacijent_FK">

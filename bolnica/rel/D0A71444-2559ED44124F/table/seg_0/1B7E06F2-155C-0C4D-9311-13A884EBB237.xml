@@ -51,18 +51,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Bolnica_bolnica_id" id="A1CCDD3F-DD35-242D-A55E-2F0C0BF7F692">
+<Column name="Uloga_uloga_id" id="88DD4163-BFA1-BB4B-D579-83F2B7DB60F2">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:24:38 UTC</createdTime>
+<createdTime>2022-11-02 10:32:12 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="198A0BC8-7534-84F8-4DD3-6F6FD3EEF3D2" referredColumn="0ED8C227-15E0-079B-C880-9FA27A28C266"/>
+<colAssociation fkAssociation="C5549051-1D67-1170-BF3C-72C1A4BC96C3" referredColumn="96F9DBE6-299A-E40B-8ED6-9A032837BA06"/>
 </associations>
 </Column>
 </columns>
@@ -78,14 +76,14 @@
 <colUsage columnID="593C76B5-B24B-1C2C-D028-573984F7E251"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="73918B09-D935-8F2C-4372-078FA1EB14CF" name="Zaposleni_Bolnica_FK">
+<ind_PK_UK id="C724B4E6-8890-9FE8-50F7-F1883B7D5488" name="Zaposleni_Uloga_FK">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:24:38 UTC</createdTime>
+<createdTime>2022-11-02 10:32:12 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A1CCDD3F-DD35-242D-A55E-2F0C0BF7F692"/>
+<colUsage columnID="88DD4163-BFA1-BB4B-D579-83F2B7DB60F2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

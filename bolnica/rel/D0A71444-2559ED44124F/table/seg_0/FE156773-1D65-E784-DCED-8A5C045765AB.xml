@@ -40,7 +40,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B0A7C623-3BC7-7C21-8FDB-5741AA4E7E63"/>
+<colUsage columnID="A8BDD3A0-F0F5-9C39-CFAB-86BC243C9C4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="46A3BF77-E3AA-BA26-6F82-0CAA5C765C76" name="Medicinski_Tehnicar_Zaposleni_FK">
