@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39439628-C3DC-49EC-6006-99A112B36ABD" name="Soba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FACC168-CB35-CF60-A13F-DE2D79B80A62" name="Dijagnosticki_Pregled">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:49:40 UTC</createdTime>
+<createdTime>2022-12-05 23:40:34 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="room_id" id="AAD97232-9DD3-51DB-E655-940C9AAD7B97">
+<Column name="pregled_id" id="E4D73B47-C211-DE21-BF96-D4C5CEC9F16D">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:05 UTC</createdTime>
+<createdTime>2022-12-05 23:42:59 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_sobe" id="5CE39EB2-223F-EAC5-CD0D-F2B93C1A2CEE">
+<Column name="tip_pregleda" id="696005E9-7E55-FC26-01EC-3944D820E6BB">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:22 UTC</createdTime>
+<createdTime>2022-12-05 23:42:59 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Departman_department_id" id="0CA5E8C8-B2D1-F327-F865-E7222334B59A">
+<Column name="Uput_uput_id" id="03383FA0-C501-7300-A9F1-62128D3472CF">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:32:17 UTC</createdTime>
+<createdTime>2022-12-06 18:35:31 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,41 +41,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="05982471-0E7F-A1CA-1E4C-01C7ED1082E5" referredColumn="744CD2C2-D113-FA18-5210-C9E460C51FB5"/>
+<colAssociation fkAssociation="A30D67DF-9785-F903-777D-AFDDBC88CCE6" referredColumn="3123B1B5-33FB-304B-F955-E6B550C3A491"/>
 </associations>
-</Column>
-<Column name="kapacitet" id="DC9FF0F0-96E3-ABBD-668E-93C3CD46EA5F">
-<createdBy>X</createdBy>
-<createdTime>2022-12-06 20:07:26 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="782BB985-B776-0A1B-2A66-CEDACCA1AFED" name="Soba_PK">
+<ind_PK_UK id="11F94BF7-C031-6090-F9A7-1FE3D655F3CC" name="Dijagnosticki_Pregled_PK">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:22 UTC</createdTime>
+<createdTime>2022-12-05 23:42:59 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AAD97232-9DD3-51DB-E655-940C9AAD7B97"/>
+<colUsage columnID="E4D73B47-C211-DE21-BF96-D4C5CEC9F16D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="30E48FEE-07E7-4914-72A7-9B17A5B7C3D1" name="Soba_Departman_FK">
+<ind_PK_UK id="D3FE0AFD-A606-735D-98C5-8266997D84C6" name="Dijagnosticki_Pregled_Uput_FK">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:32:17 UTC</createdTime>
+<createdTime>2022-12-06 18:35:31 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0CA5E8C8-B2D1-F327-F865-E7222334B59A"/>
+<colUsage columnID="03383FA0-C501-7300-A9F1-62128D3472CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

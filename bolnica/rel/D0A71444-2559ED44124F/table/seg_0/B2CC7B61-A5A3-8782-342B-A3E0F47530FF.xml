@@ -61,6 +61,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Pacijent_pacijent_id" id="77D43728-DD22-8661-9542-CDFE776310D1">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:23:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ABFC371-388F-E663-3BD5-36D7C96DB3C2" referredColumn="DAD59B64-5A70-E42D-E2B1-1C11CFC92E21"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="51134FF3-AC60-CD3C-281B-20729A3271D0" name="Osiguranje_PK">
@@ -72,6 +86,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="35581435-A5D4-62BB-2884-004E5ABE8E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28F7E106-0533-182B-AEDB-B82C70A172A6" name="Osiguranje_Pacijent_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:23:17 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77D43728-DD22-8661-9542-CDFE776310D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

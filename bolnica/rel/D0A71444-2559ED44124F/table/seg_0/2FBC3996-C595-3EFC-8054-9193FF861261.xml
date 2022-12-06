@@ -40,9 +40,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pacijent_pacijent_id" id="A91CA563-A032-F287-A616-656B600BB324">
+<Column name="Uput_uput_id" id="66660E0D-7925-9267-E7B7-DE00A57CB5BC">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:27:40 UTC</createdTime>
+<createdTime>2022-12-06 18:34:50 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,21 +51,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6814F67E-069B-CA31-5184-23128AC46C08" referredColumn="DAD59B64-5A70-E42D-E2B1-1C11CFC92E21"/>
-</associations>
-</Column>
-<Column name="Tip_Pacijenta_tip_id" id="30DDA7FD-F4E5-344F-53FA-BC415DA501DD">
-<createdBy>X</createdBy>
-<createdTime>2022-11-02 10:52:43 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="73357B7B-6401-92D4-839A-FCF3B6960698" referredColumn="EAD1ABD3-6EBF-B191-9BD9-2E534405BEFE"/>
+<colAssociation fkAssociation="7434C15D-CAC1-8BD3-6AC1-9FB51B81DF46" referredColumn="3123B1B5-33FB-304B-F955-E6B550C3A491"/>
 </associations>
 </Column>
 </columns>
@@ -81,24 +67,14 @@
 <colUsage columnID="178A04BA-8394-D591-F620-94B9BE7C1DE5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4118E6A0-43CF-D9E7-ABCA-83E333D6D918" name="Labaratorija_Pacijent_FK">
+<ind_PK_UK id="24035324-EE5D-685B-1127-503379EB057B" name="Labaratorija_Uput_FK">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:27:40 UTC</createdTime>
+<createdTime>2022-12-06 18:34:50 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A91CA563-A032-F287-A616-656B600BB324"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F37DC477-3157-E54A-B955-4F73757EA367" name="Labaratorija_Tip_Pacijenta_FK">
-<createdBy>X</createdBy>
-<createdTime>2022-11-02 10:52:43 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="30DDA7FD-F4E5-344F-53FA-BC415DA501DD"/>
+<colUsage columnID="66660E0D-7925-9267-E7B7-DE00A57CB5BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

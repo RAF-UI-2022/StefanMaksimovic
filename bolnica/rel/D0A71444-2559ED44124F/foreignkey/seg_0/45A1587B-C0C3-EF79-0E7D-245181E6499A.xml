@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45A1587B-C0C3-EF79-0E7D-245181E6499A" containerWithKeyObject="330888CA-9BDC-D444-ED35-03CB666391ED" localFKIndex="C2201153-874D-51D2-C0FA-7E5293B6AE85" name="Specijalizacijav1_Uloga_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 19:18:26 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Uloga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA9A867E-8740-E15F-09CF-30EB1F3903E6</referredTableID>
+<keyObject>804643FB-0166-8F32-AA77-88372A17262D</keyObject>
+<referredKeyID>804643FB-0166-8F32-AA77-88372A17262D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>uloga_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

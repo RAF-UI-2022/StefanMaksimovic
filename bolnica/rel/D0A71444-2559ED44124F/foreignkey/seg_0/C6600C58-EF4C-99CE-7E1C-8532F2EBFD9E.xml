@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6600C58-EF4C-99CE-7E1C-8532F2EBFD9E" containerWithKeyObject="5955C44E-C2D2-6174-47C3-575F094494D8" localFKIndex="8B611020-1474-48E6-D658-E2717B974FFA" name="Stacionarno_Lecenje_Uput_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:35:35 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Uput</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC7AEC47-CD5A-6EFA-6591-B2BB8E805BDF</referredTableID>
+<keyObject>A2C6E625-F0D0-5BEE-281F-BC6D009DCC15</keyObject>
+<referredKeyID>A2C6E625-F0D0-5BEE-281F-BC6D009DCC15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>uput_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

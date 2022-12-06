@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E9E9E2C-E172-05E3-5B10-44C32D81DB25" name="Biohemicar">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:23:58 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="biohemicar_id" id="9E37E71F-A078-BB9E-3761-4409B2F0B776">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:24:49 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Labaratorija_labaratorija_id" id="2ACE9ACF-8E03-1600-FB7B-B4BEB13AEC97">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:24:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14623940-BDA5-8A92-F854-F0029804585C" referredColumn="178A04BA-8394-D591-F620-94B9BE7C1DE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F7E303A-A1C6-7A87-AE02-4AB42516B49B" name="Biohemicar_Labaratorija_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:24:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ACE9ACF-8E03-1600-FB7B-B4BEB13AEC97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

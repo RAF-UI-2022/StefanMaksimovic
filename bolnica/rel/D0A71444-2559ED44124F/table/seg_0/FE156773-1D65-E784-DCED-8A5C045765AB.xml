@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE156773-1D65-E784-DCED-8A5C045765AB" name="Medicinski_Tehnicar">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE156773-1D65-E784-DCED-8A5C045765AB" name="Medicinska_Sestra">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 13:06:08 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
@@ -30,6 +30,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Posete_poseta_id" id="37C7A2C2-AE4E-4DF4-EC71-6649E304A3ED">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:44:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BF081B1-80B1-1EFD-D4E6-202EB50E2073" referredColumn="6DB56737-A3CA-0B4A-34F4-E171288A6963"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="53634E72-F0E2-FE8E-37D2-607EECA2C183" name="Medicinski_Tehnicar_PK">
@@ -51,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A8BDD3A0-F0F5-9C39-CFAB-86BC243C9C4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15B07DC8-3ED9-DB10-4922-94C10AC0D7F5" name="Medicinska_Sestra_Posete_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:44:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C7A2C2-AE4E-4DF4-EC71-6649E304A3ED"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

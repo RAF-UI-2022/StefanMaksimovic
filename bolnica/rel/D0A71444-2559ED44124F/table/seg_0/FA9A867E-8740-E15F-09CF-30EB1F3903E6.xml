@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA9A867E-8740-E15F-09CF-30EB1F3903E6" name="Uloga">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:35:32 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="uloga_id" id="6A240BCA-31DF-B09A-FFDA-816EFC4FDA88">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:36:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_uloge" id="276051AC-765C-02B8-BDA0-8A4F59AF96E3">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:36:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="804643FB-0166-8F32-AA77-88372A17262D" name="Uloga1_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:36:03 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A240BCA-31DF-B09A-FFDA-816EFC4FDA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B8D1A93-47D3-4C32-1BA7-7C9066A4AF2B" name="Opsti_Zdravstveni_Podaci">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:01:21 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="opsti_podaci_id" id="1B010572-2932-7C90-C1C1-8569BB3F4C94">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:03:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="krvna_grupa" id="6A442BD3-3B65-69E2-AFFE-1AFF53DE4AF8">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:03:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vakcinacija" id="12D90500-5F64-712B-F9D5-DF9CDA922CFD">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:03:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4FDECA2-CC6D-EFC1-6847-B71B1CDA2863" name="Opsti_Zdravstveni_Podaci_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:03:05 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B010572-2932-7C90-C1C1-8569BB3F4C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

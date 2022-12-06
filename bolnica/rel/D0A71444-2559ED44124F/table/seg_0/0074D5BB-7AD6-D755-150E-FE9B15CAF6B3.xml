@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39439628-C3DC-49EC-6006-99A112B36ABD" name="Soba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0074D5BB-7AD6-D755-150E-FE9B15CAF6B3" name="Proizvodjac">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:49:40 UTC</createdTime>
+<createdTime>2022-12-06 18:38:56 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_37</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="room_id" id="AAD97232-9DD3-51DB-E655-940C9AAD7B97">
+<Column name="proizvodjac_id" id="AC1A55FC-E5B9-5D06-6296-32DB97F83C02">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:05 UTC</createdTime>
+<createdTime>2022-12-06 18:46:57 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_sobe" id="5CE39EB2-223F-EAC5-CD0D-F2B93C1A2CEE">
+<Column name="ime" id="5494B795-F9C0-839F-198A-8410F7E7120F">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:22 UTC</createdTime>
+<createdTime>2022-12-06 18:46:57 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,52 +29,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Departman_department_id" id="0CA5E8C8-B2D1-F327-F865-E7222334B59A">
+<Column name="licenca" id="5C8CC675-4FDD-B234-11D7-4BCBF2B6ACF2">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 08:32:17 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="05982471-0E7F-A1CA-1E4C-01C7ED1082E5" referredColumn="744CD2C2-D113-FA18-5210-C9E460C51FB5"/>
-</associations>
-</Column>
-<Column name="kapacitet" id="DC9FF0F0-96E3-ABBD-668E-93C3CD46EA5F">
-<createdBy>X</createdBy>
-<createdTime>2022-12-06 20:07:26 UTC</createdTime>
+<createdTime>2022-12-06 18:46:57 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="34379E5F-61E6-F631-9D36-4C521B4FF6B7">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:46:57 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="782BB985-B776-0A1B-2A66-CEDACCA1AFED" name="Soba_PK">
+<ind_PK_UK id="E12D5BBF-1A3D-ACCE-DEF3-8285EF21BA29" name="Proizvodjac_PK">
 <createdBy>X</createdBy>
-<createdTime>2022-10-26 07:50:22 UTC</createdTime>
+<createdTime>2022-12-06 18:46:57 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AAD97232-9DD3-51DB-E655-940C9AAD7B97"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="30E48FEE-07E7-4914-72A7-9B17A5B7C3D1" name="Soba_Departman_FK">
-<createdBy>X</createdBy>
-<createdTime>2022-10-26 08:32:17 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0CA5E8C8-B2D1-F327-F865-E7222334B59A"/>
+<colUsage columnID="AC1A55FC-E5B9-5D06-6296-32DB97F83C02"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

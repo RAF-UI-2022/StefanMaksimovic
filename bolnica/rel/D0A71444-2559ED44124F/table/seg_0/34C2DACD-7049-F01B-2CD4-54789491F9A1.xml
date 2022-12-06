@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34C2DACD-7049-F01B-2CD4-54789491F9A1" name="Doktor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34C2DACD-7049-F01B-2CD4-54789491F9A1" name="Lekar">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 07:22:10 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
@@ -42,9 +42,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C05AAA19-96BD-73B0-6DB8-C3BBA76A3CD8" referredColumn="A413499F-1F7D-77EB-4A5A-A5C786B1082F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -67,16 +64,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="73D3A9A1-113F-A316-C87E-D37EEF6546CB" name="Doktor_Specijalizacija_FK">
-<createdBy>X</createdBy>
-<createdTime>2022-11-02 10:25:14 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A5EC94F0-C150-85CF-0F1F-65FF8BFD8ABE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

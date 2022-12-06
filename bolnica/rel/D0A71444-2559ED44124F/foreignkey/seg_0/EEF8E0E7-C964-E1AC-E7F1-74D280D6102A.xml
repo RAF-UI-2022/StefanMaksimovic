@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEF8E0E7-C964-E1AC-E7F1-74D280D6102A" containerWithKeyObject="7EF37084-9B0C-883D-57FC-34835E693EC8" localFKIndex="2A99E576-A70D-F505-54ED-EC3DBEE51225" name="Labaratorijski_Tehnicar_Labaratorija_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 00:04:55 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<referredTableLongName>Labaratorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FBC3996-C595-3EFC-8054-9193FF861261</referredTableID>
+<keyObject>BDA3F7CC-4470-8283-3523-7B5C52C164D8</keyObject>
+<referredKeyID>BDA3F7CC-4470-8283-3523-7B5C52C164D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>labaratorija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

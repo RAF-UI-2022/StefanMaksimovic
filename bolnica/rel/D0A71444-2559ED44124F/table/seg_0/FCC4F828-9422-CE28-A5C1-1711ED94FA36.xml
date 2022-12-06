@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC4F828-9422-CE28-A5C1-1711ED94FA36" name="Zaposlen_Med_Objekat">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:52:46 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_zaposleni_id" id="3F171530-DFCF-5A77-7293-EDC7B9F91D7A">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:53:36 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEEE0325-62B2-7513-4C04-5555B2BB1F0B" referredColumn="593C76B5-B24B-1C2C-D028-573984F7E251"/>
+</associations>
+</Column>
+<Column name="Medicinski_Objekat1_objekat_id" id="44108A58-1E53-2E8C-45F7-4464328E3BBC">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:53:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77FE3D44-FD32-6711-E34E-CCDB3B568A02" referredColumn="77537278-D462-B8FA-D87A-95A5978B5FB6"/>
+</associations>
+</Column>
+<Column name="Medicinski_Objekat_objekat_id" id="C7CA751B-EC47-D0FA-0DFF-C75C223F9DDE">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:54:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="od" id="33D1471C-E648-5B1B-4E05-4BD4FB1D5380">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:54:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="A64837AA-D565-E096-67BB-B6223E18D201">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:54:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid" id="2010F54B-F26F-D95E-1595-6827FB3DFD08">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:54:59 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA42FBA6-9F96-27F0-CF55-ED243FF30E11" name="Zaposlen_Med_Objekat_PK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:55:37 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7CA751B-EC47-D0FA-0DFF-C75C223F9DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C28FB8A2-EB3B-9BDA-D434-7BFC403270D4" name="Zaposlen_Med_Objekat_Zaposleni_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:53:36 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F171530-DFCF-5A77-7293-EDC7B9F91D7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FCCB5AD-6A07-1B33-2F18-89D1DBA1C3FB" name="Zaposlen_Med_Objekat_Medicinski_Objekat1_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:53:40 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44108A58-1E53-2E8C-45F7-4464328E3BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

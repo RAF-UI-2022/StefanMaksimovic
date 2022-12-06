@@ -59,9 +59,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C5549051-1D67-1170-BF3C-72C1A4BC96C3" referredColumn="96F9DBE6-299A-E40B-8ED6-9A032837BA06"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -74,16 +71,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="593C76B5-B24B-1C2C-D028-573984F7E251"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C724B4E6-8890-9FE8-50F7-F1883B7D5488" name="Zaposleni_Uloga_FK">
-<createdBy>X</createdBy>
-<createdTime>2022-11-02 10:32:12 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="88DD4163-BFA1-BB4B-D579-83F2B7DB60F2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

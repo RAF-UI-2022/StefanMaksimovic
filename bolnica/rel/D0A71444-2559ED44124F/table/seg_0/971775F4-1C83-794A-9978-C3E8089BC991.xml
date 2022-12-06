@@ -29,17 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_leka" id="259F01CB-4CC4-8DA8-3A70-1A31DBDCF361">
-<createdBy>X</createdBy>
-<createdTime>2022-10-26 07:57:40 UTC</createdTime>
-<ownerDesignName>bolnica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="opis_leka" id="3117459C-AEBA-03B1-B39D-54EEB7789EE2">
 <createdBy>X</createdBy>
 <createdTime>2022-10-26 07:57:40 UTC</createdTime>
@@ -62,6 +51,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="datum_proizvodnje" id="37B3CEDE-1181-FC84-BD90-363668B4B4EE">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:38:08 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_uvoza" id="114ADB90-F1E5-8AFB-89B2-F3235B299DC1">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:38:08 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proizvodjac_proizvodjac_id" id="F1D9ADBE-0B0A-2586-7335-13322BE61059">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:47:13 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12A869B7-5338-424A-2072-56CF5EE6DD35" referredColumn="AC1A55FC-E5B9-5D06-6296-32DB97F83C02"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9926DA42-1A5A-4F53-FC89-FA672066105C" name="Lek_PK">
@@ -73,6 +98,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8218583F-2FF5-209C-D435-7FFD24CEF24F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="483A28F4-9C20-C149-2F24-770E6B905BF9" name="Lek_Proizvodjac_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-06 18:47:13 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1D9ADBE-0B0A-2586-7335-13322BE61059"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
