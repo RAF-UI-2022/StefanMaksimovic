@@ -72,6 +72,20 @@
 <colAssociation fkAssociation="7207E5FD-BAE1-F245-B2BC-6B1D75CF60E7" referredColumn="9F30E26B-1E6B-12A1-3689-2A4B34E8FEAB"/>
 </associations>
 </Column>
+<Column name="Lekar_doctor_id" id="0CBD2DBB-CD77-3B71-8B02-5617C895DC68">
+<createdBy>X</createdBy>
+<createdTime>2022-12-07 13:38:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B0E1799-C4F9-5EE6-76B5-D287FD8DC0C8" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="26C0F237-8FB4-AA9A-C09C-C717AACADB8D" name="Lekar_Izvestaj_Stacionar_Lekar_FK">
@@ -82,6 +96,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D4FD2DFA-BD91-0635-3942-64DD32D1E855"/>
+<colUsage columnID="0CBD2DBB-CD77-3B71-8B02-5617C895DC68"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8A424281-1568-276D-B2E1-380E42B44A27" name="Lekar_Izvestaj_Stacionar_Pacijent_FK">

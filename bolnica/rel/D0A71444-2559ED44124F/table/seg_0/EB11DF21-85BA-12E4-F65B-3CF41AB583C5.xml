@@ -80,6 +80,20 @@
 <colAssociation fkAssociation="FD580DB1-9D28-7AD8-9CA1-34CE9D6E4017" referredColumn="D545B3F1-724D-35FB-1597-DBA84652FAE1"/>
 </associations>
 </Column>
+<Column name="Lekar_doctor_id" id="CCDE8815-0210-7207-C613-FF3153BC5B0F">
+<createdBy>X</createdBy>
+<createdTime>2022-12-07 13:38:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E76DD7DA-1F50-F818-2CDF-2F21D16B3C34" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="562F0F42-59E1-B1E3-0C99-3B427FAB15F5" name="Pregled_PK">
@@ -101,6 +115,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50C9631A-F0BD-2777-BCD5-2875CE8E4EE9"/>
+<colUsage columnID="CCDE8815-0210-7207-C613-FF3153BC5B0F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9962CB53-B313-E584-6822-AD9896682AA3" name="Pregled_Pacijent_FK">

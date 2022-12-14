@@ -79,6 +79,20 @@
 <colAssociation fkAssociation="E25E8449-7302-F343-3EAE-8C2D3CFD16E0" referredColumn="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
 </associations>
 </Column>
+<Column name="Lekar_doctor_id" id="FFEB99A7-EF03-450D-8DA5-2D7232694B19">
+<createdBy>X</createdBy>
+<createdTime>2022-12-07 13:38:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E25E8449-7302-F343-3EAE-8C2D3CFD16E0" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="627C92CD-CA0A-B523-4FFB-372231BA33A2" name="Otpusna_Lista_PK">
@@ -110,6 +124,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D7D1A7AD-FB7A-8199-9357-21D6FE7BFEDC"/>
+<colUsage columnID="FFEB99A7-EF03-450D-8DA5-2D7232694B19"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

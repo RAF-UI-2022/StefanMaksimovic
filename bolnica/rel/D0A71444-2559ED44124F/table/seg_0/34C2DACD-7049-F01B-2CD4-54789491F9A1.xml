@@ -54,6 +54,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8E606B30-C11A-5C67-4AF1-73AB6116BC71"/>
+<colUsage columnID="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3A8A2598-82E0-A900-7A41-D7DF819C38A1" name="Doktor_Zaposleni_FK">

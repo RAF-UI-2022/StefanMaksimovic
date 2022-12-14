@@ -77,16 +77,33 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="terapija" id="8E66B55F-E66F-E142-3222-9E71966AE51B">
+<Column name="Lekar_doctor_id" id="82A96178-F75B-F038-1F67-DFD8478CA388">
 <createdBy>X</createdBy>
-<createdTime>2022-12-06 00:00:18 UTC</createdTime>
+<createdTime>2022-12-07 13:38:56 UTC</createdTime>
 <ownerDesignName>bolnica</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F6EB000-A866-B692-CC70-B7141383DA6D" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</associations>
+</Column>
+<Column name="Opsti_Zdravstveni_Podaci_opsti_podaci_id" id="02C929BF-6101-E596-7F53-FA3170BC0CBD">
+<createdBy>X</createdBy>
+<createdTime>2022-12-14 15:06:08 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="768358E7-E6A4-61D1-BAB2-871C5AB50527" referredColumn="1B010572-2932-7C90-C1C1-8569BB3F4C94"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -119,6 +136,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B39F578B-A302-3A77-8075-108247773248"/>
+<colUsage columnID="82A96178-F75B-F038-1F67-DFD8478CA388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF4106DC-7BD9-9180-ECC6-9224AC62AEF4" name="Zdravstveni_Karton_Opsti_Zdravstveni_Podaci_FK">
+<createdBy>X</createdBy>
+<createdTime>2022-12-14 15:06:08 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02C929BF-6101-E596-7F53-FA3170BC0CBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

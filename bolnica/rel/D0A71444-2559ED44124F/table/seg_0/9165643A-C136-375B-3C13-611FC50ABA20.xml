@@ -77,6 +77,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Lekar_doctor_id" id="916A4463-5334-BF27-BF30-14D9D1527461">
+<createdBy>X</createdBy>
+<createdTime>2022-12-07 13:38:56 UTC</createdTime>
+<ownerDesignName>bolnica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE58838E-8AB1-2EB6-021B-729BB4112396" referredColumn="62E1AFD7-C95A-1C7D-ED3A-BB7F6300EB0C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1FB7BFEB-E113-01B2-7F12-C24AAEA9C0AE" name="Dijagnoza_PK">
@@ -98,6 +112,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3A82B7BB-E5E0-4700-3B64-BE657123E66D"/>
+<colUsage columnID="916A4463-5334-BF27-BF30-14D9D1527461"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F1BD6D78-F015-3416-2EE8-AAF93E42F205" name="Dijagnoza_Pacijent_FK">
